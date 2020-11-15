@@ -6,6 +6,7 @@
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
+    "read-last-lines": "^1.7.2",
     "socket.io": "^3.0.1"
   },
   "devDependencies": {
