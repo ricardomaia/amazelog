@@ -1,0 +1,19 @@
+{
+  "name": "amazelog",
+  "version": "0.0.1",
+  "description": "Log Management System",
+  "author": "Ricardo Maia",
+  "license": "GPLv3+",
+  "bugs": {
+    "url": "https://github.com/ricardomaia/amazelog/issues"
+  },
+  "homepage": "https://github.com/ricardomaia/amazelog#readme",
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev ",
+    "dev": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}

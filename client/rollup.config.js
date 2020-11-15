@@ -90,7 +90,7 @@ export default {
         spa: "public/index.html",
         port: 5000,
         proxy: {
-          "/api/*": "http://localhost:3000/api/",
+          "/api/*": "http://localhost:3000/",
         },
       }),
 
